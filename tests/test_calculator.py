@@ -1,5 +1,5 @@
 # tests/test_calculator.py
-from user_code.calculator_PR import add, subtract, multiply
+from user_code.calculator import add, subtract, multiply
 
 def test_add():
     assert add(2, 3) == 5
